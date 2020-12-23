@@ -32,7 +32,7 @@ ObjectMapper mapper = new ObjectMapper()
 ```
 The module can also be scoped to a specific class or package:
 
-```
+```java
 Module module = BlocklistModule.builder()
     .classes(Author.class) // Author is explicitly blocked
     .packages("net.kilink.example") // All classes from net.kilink.example are blocked
