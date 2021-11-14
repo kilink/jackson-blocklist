@@ -7,8 +7,8 @@ repositories {
 }
 
 dependencies {
-    implementation("com.google.guava:guava:30.1-jre")
-    api("com.fasterxml.jackson.core:jackson-databind:2.12.+")
+    implementation("com.google.guava:guava:31.0.1-jre")
+    api("com.fasterxml.jackson.core:jackson-databind:2.13.+")
 
     implementation("org.slf4j:slf4j-api:1.7.+")
 
